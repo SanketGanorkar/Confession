@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-rose-100 via-rose-50 to-amber-50 min-h-screen;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .font-serif {
+    font-family: 'Lora', serif;
+  }
+}
+
+@layer components {
+  .confession-letter p {
+    @apply my-4;
+  }
+}
